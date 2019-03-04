@@ -13,11 +13,6 @@ FoodCollection = input("Plaese enter 5 food iteams seperated by comma: ")
 Food_List = FoodCollection.split(", ")
 
 
-#Now lets see how this does 
-
-# Yea this shit is fucking working now, i hope.....
-#on desktop i make changes then i push 
-
 #print("Printing Food")
 #for food in Food_List:
 #    print(food)
