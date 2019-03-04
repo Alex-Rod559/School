@@ -15,6 +15,8 @@ Food_List = FoodCollection.split(", ")
 
 #Now lets see how this does 
 
+# Yea this shit is fucking working now, i hope.....
+
 #print("Printing Food")
 #for food in Food_List:
 #    print(food)
