@@ -8,16 +8,16 @@ if spamm == 'spamm':
 '''
 
 
-print ("The following items are on sale 20 percent off: cake, muffins, and bread")
-FoodCollection = input("Plaese enter 5 food iteams seperated by comma: ")
+
+FoodCollection = input("Plaese only select 5 of the following food items: Bread, Crosants, Muffins, Cake, Pie, Cookie \nType out the desired items seperated by a comma: ")
 Food_List = FoodCollection.split(", ")
 
 
 
 #Pushthisbitch
 
-#print("Printing Food")
-#for food in Food_List:
-#    print(food)
+print("Printing Food")
+for food in Food_List:
+    print(food)
 
 #QuantCollection = int(input("Plesae type how many of "))
