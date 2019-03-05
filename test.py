@@ -1,3 +1,7 @@
+#Author: Alexander Rodriguez 
+#3/5/2019
+#Program: Allows users to pick the amount of something and it outputs how much they got and how much it cost 
+
 items = ('cake', 'pie', 'cookies', 'bread', 'muffins')
 
 
@@ -35,4 +39,4 @@ for item, quantity, price, discount in zip(items, quant , item_price, dicountLis
     print("%-7s%12s%13s%14s" % \
         (item, quantity, price, discount))
 
-print ("Total: $ %0.2f" % discountTotal,  "USD" )
+print ("Total: $ %0.2f" % discountTotal, "USD" )
