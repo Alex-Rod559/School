@@ -1,4 +1,3 @@
-
 items = ('cake', 'pie', 'cookies', 'bread', 'muffins')
 
 
@@ -26,13 +25,14 @@ discountMuffin = muffins_price * .1
 
 dicountList = ('20%','30%','50%','40%','10%')
 
-print ("%4s %16s %-16s %20s" % \
+discountTotal = discountBread + discountCake + discountCookie + discountMuffin + discountPie 
+
+print ("%4s %16s %16s %20s" % \
     ("Item", "Quantity","Selling Price", "Discount in Percent"))
 
 
 for item, quantity, price, discount in zip(items, quant , item_price, dicountList):
-    print("%-7s%16s%18s%14s" % \
+    print("%-7s%12s%13s%14s" % \
         (item, quantity, price, discount))
 
-
-
+print ("Total: $ %0.2f" % discountTotal,  "USD" )
