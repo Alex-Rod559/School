@@ -26,14 +26,13 @@ discountMuffin = muffins_price * .1
 
 dicountList = ('20%','30%','50%','40%','10%')
 
-print ("%4s %16s %16s %16s" % \
+print ("%4s %16s %-16s %20s" % \
     ("Item", "Quantity","Selling Price", "Discount in Percent"))
 
 
-for items in items:
-    print("%4s%18s%10s%16s" % \
-          (items, quant , item_price, dicountList))
-
+for item, quantity, price, discount in zip(items, quant , item_price, dicountList):
+    print("%-7s%16s%18s%14s" % \
+        (item, quantity, price, discount))
 
 
 
